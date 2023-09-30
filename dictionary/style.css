@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e9e0;
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #6f4e37; 
+    color: #fff; 
+    padding: 10px 20px;
+  }
+  
+  .navbar div h1 {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  h3 {
+    font-size: 20px;
+    color: #7d5e49;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+  }
+.inputspace {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+    background-color: #fff;
+    color: #333;
+  
+    border: 2px solid #462d21;
+  }
+  
+  .inputspace::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #976745; 
+    color: #fff; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  .btn:hover {
+    background-color: #3f2717; 
+  }
+  
+  .result {
+    margin: 20px;
+  }
+  
+  .title {
+    color: #6f4e37;
+  }
+  
+  .definition {
+    color: #634836;
+    font-size: larger;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar{
+      display: flex;
+      flex-direction: column;
+    }
+  }

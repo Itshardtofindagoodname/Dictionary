@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="/dict.svg" type="image/icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ME</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div><h1>Meaningful Enough</h1></div>
+      <form class="form" role="search">  
+        <input
+          id="searchinput"
+          class="inputspace"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+          autocomplete="off"
+        />
+        <button class="btn" type="submit" id="searchbtn">Search</button>
+      </form>
+    </nav>
+    <div class="result">
+      <h3>A dictionary with it's own mind</h3>
+      <h1 class="title"><span id="searchtitle">Search for a word that is going inside your head</span></h1>
+      <div class="definition">
+        <span id="def">
+          And you will be shown the meaning of the word here.... 
+        </span>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
